@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Specific Styles */
+  
+  #bookingsList li {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+  }
+  
+  #venueList li {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+  
+  #bandList li {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+  
+  #lists {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .venue-list,
+  .band-list {
+    flex: 1;
+  }
+  
+  .venue-list h2,
+  .band-list h2 {
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    #lists {
+      flex-direction: column;
+    }
+  
+    .venue-list,
+    .band-list {
+      width: 100%;
+    }
+  }
+  
